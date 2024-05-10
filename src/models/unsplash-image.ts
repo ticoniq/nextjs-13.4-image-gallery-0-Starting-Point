@@ -9,3 +9,9 @@ export interface UnsplashImage {
   width: number,
   height: number,
 }
+
+export interface UnsplashSearchResponse {
+  results: UnsplashImage[],
+  total: number,
+  total_pages: number,
+}
