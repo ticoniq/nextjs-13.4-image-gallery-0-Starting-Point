@@ -33,7 +33,7 @@ export default async function Page({ params: { username } }: PageProps) {
       <h1>{user.username}</h1>
       <p>First name: {user.first_name}</p>
       <p>Last name: {user.last_name}</p>
-      <a href={"https://unsplash.com/" + user.username}>Visit {user.username}'s profile</a>
+      <a href={"https://unsplash.com/" + user.username}>Visit {user.username} profile</a>
     </div>
   );
 }
